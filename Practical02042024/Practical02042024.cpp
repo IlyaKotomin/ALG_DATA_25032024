@@ -77,7 +77,8 @@ int main()
         cout << even[i] << endl;
 
 
-    // sort odd
+    // sort odd ->> exchange
+    
     
     return 0;
 }
