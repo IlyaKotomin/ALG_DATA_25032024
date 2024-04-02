@@ -77,8 +77,18 @@ int main()
         cout << even[i] << endl;
 
 
-    // sort odd ->> exchange
+    // sort odd ->> exchange sort
+    for(int i = 0; i < (odd_counter -1); i++)
+        for (int j=(i + 1); j < odd_counter; j++)
+            if (odd[i] > odd[j])
+                swap(odd[i], odd[j]);
+
+    cout << "Sorted odd:" << endl;
     
+    
+    // sort even ->> block sort
+    
+
     
     return 0;
 }
